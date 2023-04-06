@@ -9,7 +9,7 @@ Resources:
   LambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: ffmpeg6
+      LayerName: ffmpeg-latest
       Description: FFMPEG for AWS Lambda
       ContentUri: build/layer
       LicenseInfo: GPL-2.0-or-later
